@@ -1,0 +1,6 @@
+framework module Pods_wasai {
+  umbrella header "Pods-wasai-umbrella.h"
+
+  export *
+  module * { export * }
+}

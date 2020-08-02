@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,16 @@
 		1BCDF60724D53A5400B58530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60624D53A5400B58530 /* SceneDelegate.swift */; };
 		1BCDF60924D53A5400B58530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60824D53A5400B58530 /* ViewController.swift */; };
 		1BCDF60C24D53A5500B58530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF60A24D53A5400B58530 /* Main.storyboard */; };
-		1BCDF60E24D53A5600B58530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF60D24D53A5600B58530 /* Assets.xcassets */; };
 		1BCDF61124D53A5600B58530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF60F24D53A5600B58530 /* LaunchScreen.storyboard */; };
 		1BCDF61C24D53A5600B58530 /* wasaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF61B24D53A5600B58530 /* wasaiTests.swift */; };
 		1BCDF62724D53A5600B58530 /* wasaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF62624D53A5600B58530 /* wasaiUITests.swift */; };
+		1BCDF63724D53D3E00B58530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF63624D53D3E00B58530 /* Assets.xcassets */; };
+		1BCDF63A24D5424600B58530 /* SharePreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF63924D5424600B58530 /* SharePreference.swift */; };
+		1BCDF64624D58EB800B58530 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF64524D58EB800B58530 /* GuideViewController.swift */; };
+		1BCDF64A24D594E100B58530 /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF64924D594E100B58530 /* Guide.storyboard */; };
+		1BCDF64C24D59D3C00B58530 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF64B24D59D3C00B58530 /* Podfile */; };
+		1BCDF64E24D6439B00B58530 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF64D24D6439B00B58530 /* SystemInfo.swift */; };
+		A0B70A4834FF4AAC6F06215E /* Pods_wasai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948463F0DF9253D68B0020AD /* Pods_wasai.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06434F0679ED7A7BCE31FAD4 /* Pods-wasai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasai.debug.xcconfig"; path = "Target Support Files/Pods-wasai/Pods-wasai.debug.xcconfig"; sourceTree = "<group>"; };
 		1BCDF60124D53A5400B58530 /* wasai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCDF60424D53A5400B58530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCDF60624D53A5400B58530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1BCDF60824D53A5400B58530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BCDF60B24D53A5400B58530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1BCDF60D24D53A5600B58530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCDF61024D53A5600B58530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCDF61224D53A5600B58530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BCDF61724D53A5600B58530 /* wasaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,14 @@
 		1BCDF62224D53A5600B58530 /* wasaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCDF62624D53A5600B58530 /* wasaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasaiUITests.swift; sourceTree = "<group>"; };
 		1BCDF62824D53A5600B58530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCDF63624D53D3E00B58530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BCDF63924D5424600B58530 /* SharePreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePreference.swift; sourceTree = "<group>"; };
+		1BCDF64524D58EB800B58530 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		1BCDF64924D594E100B58530 /* Guide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
+		1BCDF64B24D59D3C00B58530 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1BCDF64D24D6439B00B58530 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
+		2D8C10A22993A0A448B71147 /* Pods-wasai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasai.release.xcconfig"; path = "Target Support Files/Pods-wasai/Pods-wasai.release.xcconfig"; sourceTree = "<group>"; };
+		948463F0DF9253D68B0020AD /* Pods_wasai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wasai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B70A4834FF4AAC6F06215E /* Pods_wasai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11D6FD3B79A93881CE8E989E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06434F0679ED7A7BCE31FAD4 /* Pods-wasai.debug.xcconfig */,
+				2D8C10A22993A0A448B71147 /* Pods-wasai.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1BCDF5F824D53A5400B58530 = {
 			isa = PBXGroup;
 			children = (
+				1BCDF64B24D59D3C00B58530 /* Podfile */,
 				1BCDF60324D53A5400B58530 /* wasai */,
 				1BCDF61A24D53A5600B58530 /* wasaiTests */,
 				1BCDF62524D53A5600B58530 /* wasaiUITests */,
 				1BCDF60224D53A5400B58530 /* Products */,
+				11D6FD3B79A93881CE8E989E /* Pods */,
+				608CFD636B96556699985CF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +126,13 @@
 		1BCDF60324D53A5400B58530 /* wasai */ = {
 			isa = PBXGroup;
 			children = (
+				1BCDF63B24D56DBD00B58530 /* ViewController */,
+				1BCDF63824D5421100B58530 /* Utils */,
 				1BCDF60424D53A5400B58530 /* AppDelegate.swift */,
 				1BCDF60624D53A5400B58530 /* SceneDelegate.swift */,
 				1BCDF60824D53A5400B58530 /* ViewController.swift */,
+				1BCDF63624D53D3E00B58530 /* Assets.xcassets */,
 				1BCDF60A24D53A5400B58530 /* Main.storyboard */,
-				1BCDF60D24D53A5600B58530 /* Assets.xcassets */,
 				1BCDF60F24D53A5600B58530 /* LaunchScreen.storyboard */,
 				1BCDF61224D53A5600B58530 /* Info.plist */,
 			);
@@ -128,6 +157,40 @@
 			path = wasaiUITests;
 			sourceTree = "<group>";
 		};
+		1BCDF63824D5421100B58530 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDF63924D5424600B58530 /* SharePreference.swift */,
+				1BCDF64D24D6439B00B58530 /* SystemInfo.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1BCDF63B24D56DBD00B58530 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDF64424D58EA200B58530 /* Guide */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1BCDF64424D58EA200B58530 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDF64524D58EB800B58530 /* GuideViewController.swift */,
+				1BCDF64924D594E100B58530 /* Guide.storyboard */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		608CFD636B96556699985CF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948463F0DF9253D68B0020AD /* Pods_wasai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCDF62B24D53A5600B58530 /* Build configuration list for PBXNativeTarget "wasai" */;
 			buildPhases = (
+				9DB096091106A9A91D90D796 /* [CP] Check Pods Manifest.lock */,
 				1BCDF5FD24D53A5400B58530 /* Sources */,
 				1BCDF5FE24D53A5400B58530 /* Frameworks */,
 				1BCDF5FF24D53A5400B58530 /* Resources */,
+				775333B64F286FDF7EAA3965 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +297,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCDF64C24D59D3C00B58530 /* Podfile in Resources */,
 				1BCDF61124D53A5600B58530 /* LaunchScreen.storyboard in Resources */,
-				1BCDF60E24D53A5600B58530 /* Assets.xcassets in Resources */,
+				1BCDF64A24D594E100B58530 /* Guide.storyboard in Resources */,
+				1BCDF63724D53D3E00B58530 /* Assets.xcassets in Resources */,
 				1BCDF60C24D53A5500B58530 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +321,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		775333B64F286FDF7EAA3965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wasai/Pods-wasai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wasai/Pods-wasai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wasai/Pods-wasai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB096091106A9A91D90D796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wasai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BCDF5FD24D53A5400B58530 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1BCDF60924D53A5400B58530 /* ViewController.swift in Sources */,
+				1BCDF64624D58EB800B58530 /* GuideViewController.swift in Sources */,
 				1BCDF60524D53A5400B58530 /* AppDelegate.swift in Sources */,
+				1BCDF63A24D5424600B58530 /* SharePreference.swift in Sources */,
+				1BCDF64E24D6439B00B58530 /* SystemInfo.swift in Sources */,
 				1BCDF60724D53A5400B58530 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,15 +544,18 @@
 		};
 		1BCDF62C24D53A5600B58530 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06434F0679ED7A7BCE31FAD4 /* Pods-wasai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQ2PT5Z9Q;
 				INFOPLIST_FILE = wasai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-77115772.wasai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -450,15 +565,18 @@
 		};
 		1BCDF62D24D53A5600B58530 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8C10A22993A0A448B71147 /* Pods-wasai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQ2PT5Z9Q;
 				INFOPLIST_FILE = wasai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-77115772.wasai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
