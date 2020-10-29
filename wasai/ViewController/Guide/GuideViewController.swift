@@ -7,15 +7,17 @@
 //
 
 import UIKit
+import Foundation
 
 class GuideViewController: UIPageViewController, UIPageViewControllerDataSource {
-
+    
+   
+    
     //所有页面的视图控制器
     private(set) lazy var allViewControllers: [UIViewController] = {
         return [
-            self.getViewController(indentifier: "GuideOne"),
-            self.getViewController(indentifier: "GuideTwo"),
-            self.getViewController(indentifier: "GuideThree")
+            GuideOneViewController(),
+            GuideTwoViewController()
         ]
     }()
      
@@ -34,13 +36,7 @@ class GuideViewController: UIPageViewController, UIPageViewControllerDataSource 
                                completion: nil)
         }
     }
-     
-    //根据indentifier获取Storyboard里的视图控制器
-    private func getViewController(indentifier: String) -> UIViewController {
-        return UIStoryboard(name: "Guide", bundle: nil) .
-            instantiateViewController(withIdentifier: "\(indentifier)")
-    }
-     
+          
     //获取前一个页面
     func pageViewController(_ pageViewController: UIPageViewController,
                             viewControllerBefore

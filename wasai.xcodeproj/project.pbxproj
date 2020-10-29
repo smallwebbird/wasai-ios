@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B56A43725496BD600A8E3BF /* GuideOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A43625496BD600A8E3BF /* GuideOneViewController.swift */; };
+		1B56A44425496ECD00A8E3BF /* GuideTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A44325496ECD00A8E3BF /* GuideTwoViewController.swift */; };
+		1B56A453254A713800A8E3BF /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A452254A713800A8E3BF /* WebviewViewController.swift */; };
+		1B56A461254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A460254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift */; };
+		1B56A469254AF4D900A8E3BF /* WebviewJavascript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A468254AF4D900A8E3BF /* WebviewJavascript.swift */; };
+		1B56A46E254B038200A8E3BF /* NativeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A46D254B038200A8E3BF /* NativeBridge.swift */; };
 		1BCDF60524D53A5400B58530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60424D53A5400B58530 /* AppDelegate.swift */; };
 		1BCDF60724D53A5400B58530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60624D53A5400B58530 /* SceneDelegate.swift */; };
 		1BCDF60924D53A5400B58530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60824D53A5400B58530 /* ViewController.swift */; };
@@ -17,7 +23,6 @@
 		1BCDF63724D53D3E00B58530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF63624D53D3E00B58530 /* Assets.xcassets */; };
 		1BCDF63A24D5424600B58530 /* SharePreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF63924D5424600B58530 /* SharePreference.swift */; };
 		1BCDF64624D58EB800B58530 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF64524D58EB800B58530 /* GuideViewController.swift */; };
-		1BCDF64A24D594E100B58530 /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF64924D594E100B58530 /* Guide.storyboard */; };
 		1BCDF64C24D59D3C00B58530 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1BCDF64B24D59D3C00B58530 /* Podfile */; };
 		1BCDF64E24D6439B00B58530 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF64D24D6439B00B58530 /* SystemInfo.swift */; };
 		A0B70A4834FF4AAC6F06215E /* Pods_wasai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948463F0DF9253D68B0020AD /* Pods_wasai.framework */; };
@@ -42,6 +47,12 @@
 
 /* Begin PBXFileReference section */
 		06434F0679ED7A7BCE31FAD4 /* Pods-wasai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasai.debug.xcconfig"; path = "Target Support Files/Pods-wasai/Pods-wasai.debug.xcconfig"; sourceTree = "<group>"; };
+		1B56A43625496BD600A8E3BF /* GuideOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideOneViewController.swift; sourceTree = "<group>"; };
+		1B56A44325496ECD00A8E3BF /* GuideTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTwoViewController.swift; sourceTree = "<group>"; };
+		1B56A452254A713800A8E3BF /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
+		1B56A460254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakScriptMessageDelegate.swift; sourceTree = "<group>"; };
+		1B56A468254AF4D900A8E3BF /* WebviewJavascript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewJavascript.swift; sourceTree = "<group>"; };
+		1B56A46D254B038200A8E3BF /* NativeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeBridge.swift; sourceTree = "<group>"; };
 		1BCDF60124D53A5400B58530 /* wasai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCDF60424D53A5400B58530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCDF60624D53A5400B58530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +69,6 @@
 		1BCDF63624D53D3E00B58530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCDF63924D5424600B58530 /* SharePreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePreference.swift; sourceTree = "<group>"; };
 		1BCDF64524D58EB800B58530 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
-		1BCDF64924D594E100B58530 /* Guide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
 		1BCDF64B24D59D3C00B58530 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1BCDF64D24D6439B00B58530 /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
 		2D8C10A22993A0A448B71147 /* Pods-wasai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasai.release.xcconfig"; path = "Target Support Files/Pods-wasai/Pods-wasai.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +108,17 @@
 				2D8C10A22993A0A448B71147 /* Pods-wasai.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B56A451254A710400A8E3BF /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				1B56A452254A713800A8E3BF /* WebviewViewController.swift */,
+				1B56A460254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift */,
+				1B56A468254AF4D900A8E3BF /* WebviewJavascript.swift */,
+				1B56A46D254B038200A8E3BF /* NativeBridge.swift */,
+			);
+			path = Webview;
 			sourceTree = "<group>";
 		};
 		1BCDF5F824D53A5400B58530 = {
@@ -169,6 +190,7 @@
 		1BCDF63B24D56DBD00B58530 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1B56A451254A710400A8E3BF /* Webview */,
 				1BCDF64424D58EA200B58530 /* Guide */,
 			);
 			path = ViewController;
@@ -178,7 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				1BCDF64524D58EB800B58530 /* GuideViewController.swift */,
-				1BCDF64924D594E100B58530 /* Guide.storyboard */,
+				1B56A43625496BD600A8E3BF /* GuideOneViewController.swift */,
+				1B56A44325496ECD00A8E3BF /* GuideTwoViewController.swift */,
 			);
 			path = Guide;
 			sourceTree = "<group>";
@@ -299,7 +322,6 @@
 			files = (
 				1BCDF64C24D59D3C00B58530 /* Podfile in Resources */,
 				1BCDF61124D53A5600B58530 /* LaunchScreen.storyboard in Resources */,
-				1BCDF64A24D594E100B58530 /* Guide.storyboard in Resources */,
 				1BCDF63724D53D3E00B58530 /* Assets.xcassets in Resources */,
 				1BCDF60C24D53A5500B58530 /* Main.storyboard in Resources */,
 			);
@@ -368,11 +390,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B56A43725496BD600A8E3BF /* GuideOneViewController.swift in Sources */,
+				1B56A453254A713800A8E3BF /* WebviewViewController.swift in Sources */,
 				1BCDF60924D53A5400B58530 /* ViewController.swift in Sources */,
 				1BCDF64624D58EB800B58530 /* GuideViewController.swift in Sources */,
 				1BCDF60524D53A5400B58530 /* AppDelegate.swift in Sources */,
+				1B56A46E254B038200A8E3BF /* NativeBridge.swift in Sources */,
+				1B56A461254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift in Sources */,
 				1BCDF63A24D5424600B58530 /* SharePreference.swift in Sources */,
+				1B56A469254AF4D900A8E3BF /* WebviewJavascript.swift in Sources */,
 				1BCDF64E24D6439B00B58530 /* SystemInfo.swift in Sources */,
+				1B56A44425496ECD00A8E3BF /* GuideTwoViewController.swift in Sources */,
 				1BCDF60724D53A5400B58530 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

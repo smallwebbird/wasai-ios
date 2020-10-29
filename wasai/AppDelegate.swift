@@ -22,10 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         }
         window = UIWindow(frame: UIScreen.main.bounds)
-        let homeStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let homeViewController: UIViewController = homeStoryBoard.instantiateViewController(withIdentifier: "ViewController") as UIViewController
-        let guideStoryBoard: UIStoryboard = UIStoryboard(name: "Guide", bundle: nil)
-        let guideViewController: UIViewController = guideStoryBoard.instantiateViewController(withIdentifier: "GuideViewController") as UIViewController
+        var homeViewController: UIViewController = ViewController()
+        homeViewController = UINavigationController(rootViewController: homeViewController)
+        let guideViewController: UIViewController = GuideViewController()
         let isFirstOpenApp = Preferences[.isFirstOpenApp]
         let cacheAppVersion = Preferences[.appVersion]
         // 如果是一次那么就进入引导页，否则进入首页
@@ -46,7 +45,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         window?.rootViewController = initalViewController
         window?.makeKeyAndVisible()
-        print("hello world")
         return true
         
     }
