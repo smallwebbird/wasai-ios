@@ -9,28 +9,25 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController {
-    
+class ViewController: UITabBarController {
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        view.backgroundColor = UIColor.white
         
-        // 初始化页面
         initInterface()
     }
     
     func initInterface () {
-        let button = UIButton(frame: CGRect(x: 0, y: 200, width: view.frame.width, height: 50))
-        button.setTitle("跳转到webview", for: .normal)
-        button.backgroundColor = UIColor.red
-        button.addTarget(self, action: #selector(jumpToWebview), for: .touchUpInside)
-        view.addSubview(button)
-    }
-    
-    @objc func jumpToWebview () {
-        let webviewViewController = WebViewViewController()
-        navigationController?.pushViewController(webviewViewController, animated: true)
+        let homeViewController = HomeViewController()
+        homeViewController.tabBarItem.title = "主页"
+        
+        let mineViewController = MineViewController()
+        mineViewController.tabBarItem.title = "我的"
+        
+        tabBar.isTranslucent = false
+        
+        addChild(homeViewController)
+        addChild(mineViewController)
     }
     
 }

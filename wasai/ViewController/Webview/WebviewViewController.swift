@@ -258,7 +258,7 @@ class WebViewViewController: UIViewController, WKNavigationDelegate, WKUIDelegat
     
     @objc func popViewController(){
          
-        self.navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
     }
     
     deinit {

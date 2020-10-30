@@ -13,6 +13,8 @@
 		1B56A461254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A460254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift */; };
 		1B56A469254AF4D900A8E3BF /* WebviewJavascript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A468254AF4D900A8E3BF /* WebviewJavascript.swift */; };
 		1B56A46E254B038200A8E3BF /* NativeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A46D254B038200A8E3BF /* NativeBridge.swift */; };
+		1B56A475254BBE6700A8E3BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A474254BBE6700A8E3BF /* HomeViewController.swift */; };
+		1B56A47A254BBE7C00A8E3BF /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56A479254BBE7C00A8E3BF /* MineViewController.swift */; };
 		1BCDF60524D53A5400B58530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60424D53A5400B58530 /* AppDelegate.swift */; };
 		1BCDF60724D53A5400B58530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60624D53A5400B58530 /* SceneDelegate.swift */; };
 		1BCDF60924D53A5400B58530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCDF60824D53A5400B58530 /* ViewController.swift */; };
@@ -53,6 +55,8 @@
 		1B56A460254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakScriptMessageDelegate.swift; sourceTree = "<group>"; };
 		1B56A468254AF4D900A8E3BF /* WebviewJavascript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewJavascript.swift; sourceTree = "<group>"; };
 		1B56A46D254B038200A8E3BF /* NativeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeBridge.swift; sourceTree = "<group>"; };
+		1B56A474254BBE6700A8E3BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B56A479254BBE7C00A8E3BF /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		1BCDF60124D53A5400B58530 /* wasai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCDF60424D53A5400B58530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCDF60624D53A5400B58530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,22 @@
 				1B56A46D254B038200A8E3BF /* NativeBridge.swift */,
 			);
 			path = Webview;
+			sourceTree = "<group>";
+		};
+		1B56A472254BBE4500A8E3BF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B56A474254BBE6700A8E3BF /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B56A473254BBE4F00A8E3BF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1B56A479254BBE7C00A8E3BF /* MineViewController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		1BCDF5F824D53A5400B58530 = {
@@ -190,6 +210,8 @@
 		1BCDF63B24D56DBD00B58530 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1B56A473254BBE4F00A8E3BF /* Mine */,
+				1B56A472254BBE4500A8E3BF /* Home */,
 				1B56A451254A710400A8E3BF /* Webview */,
 				1BCDF64424D58EA200B58530 /* Guide */,
 			);
@@ -398,9 +420,11 @@
 				1B56A46E254B038200A8E3BF /* NativeBridge.swift in Sources */,
 				1B56A461254AE7E700A8E3BF /* WeakScriptMessageDelegate.swift in Sources */,
 				1BCDF63A24D5424600B58530 /* SharePreference.swift in Sources */,
+				1B56A47A254BBE7C00A8E3BF /* MineViewController.swift in Sources */,
 				1B56A469254AF4D900A8E3BF /* WebviewJavascript.swift in Sources */,
 				1BCDF64E24D6439B00B58530 /* SystemInfo.swift in Sources */,
 				1B56A44425496ECD00A8E3BF /* GuideTwoViewController.swift in Sources */,
+				1B56A475254BBE6700A8E3BF /* HomeViewController.swift in Sources */,
 				1BCDF60724D53A5400B58530 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,8 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         if let windowSence = scene as? UIWindowScene  {
            self.window = UIWindow(windowScene: windowSence)
-            var homeViewController: UIViewController = ViewController()
-            homeViewController = UINavigationController(rootViewController: homeViewController)
+
+            let homeViewController: UIViewController = ViewController()
+            
             let guideViewController: UIViewController = GuideViewController()
             let isFirstOpenApp = Preferences[.isFirstOpenApp]
             let cacheAppVersion = Preferences[.appVersion]

@@ -22,8 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         }
         window = UIWindow(frame: UIScreen.main.bounds)
-        var homeViewController: UIViewController = ViewController()
-        homeViewController = UINavigationController(rootViewController: homeViewController)
+        
+        let homeViewController: UIViewController = ViewController()
+        
         let guideViewController: UIViewController = GuideViewController()
         let isFirstOpenApp = Preferences[.isFirstOpenApp]
         let cacheAppVersion = Preferences[.appVersion]

@@ -34,8 +34,7 @@ class GuideTwoViewController: UIViewController {
     }
     
     @objc func click () {
-        var homeViewController: UIViewController = ViewController()
-        homeViewController = UINavigationController(rootViewController: homeViewController)
+        let homeViewController: UIViewController = ViewController()
         // ios13 改变了present 的样式
         /*https://zonneveld.dev/ios-13-viewcontroller-presentation-style-modalpresentationstyle/
         */
